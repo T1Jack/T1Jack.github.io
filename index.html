@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EST334 - Estadística Espacial | Cursos 2025</title>
+    <title>Portafolio de Yhack Bryan Aycaya Paco - EST334</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
@@ -25,10 +25,10 @@
                 opacity: 1;
             }
         }
-        .student-card {
+        .project-card {
             transition: all 0.3s ease;
         }
-        .student-card:hover {
+        .project-card:hover {
             transform: translateY(-2px);
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         }
@@ -41,12 +41,12 @@
             <div class="flex justify-between items-center">
                 <div class="fade-in">
                     <div class="flex items-center">
-                        <a href="index.html" class="text-blue-200 hover:text-white mr-4 text-2xl">
+                        <a href="https://t1jack.github.io/" class="text-blue-200 hover:text-white mr-4 text-2xl">
                             <i class="fas fa-arrow-left"></i>
                         </a>
                         <div>
-                            <h1 class="text-3xl font-bold">EST334 - Estadística Espacial</h1>
-                            <p class="text-blue-200 mt-1">Período Académico 2025-II</p>
+                            <h1 class="text-3xl font-bold">Portafolio de Yhack Bryan Aycaya Paco</h1>
+                            <p class="text-blue-200 mt-1">EST334 - Estadística Espacial | Universidad Nacional del Altiplano Puno</p>
                         </div>
                     </div>
                 </div>
@@ -58,11 +58,11 @@
                 
                 <!-- Desktop Navigation -->
                 <nav class="hidden md:flex space-x-6">
-                    <a href="index.html" class="text-blue-200 hover:text-white transition-colors border-b-2 border-transparent hover:border-blue-300">
-                        <i class="fas fa-home mr-2"></i>Inicio
+                    <a href="#proyectos" class="text-blue-200 hover:text-white transition-colors border-b-2 border-transparent hover:border-blue-300">
+                        <i class="fas fa-folder-open mr-2"></i>Proyectos
                     </a>
-                    <a href="#estudiantes" class="text-blue-200 hover:text-white transition-colors border-b-2 border-transparent hover:border-blue-300">
-                        <i class="fas fa-users mr-2"></i>Estudiantes
+                    <a href="#acerca" class="text-blue-200 hover:text-white transition-colors border-b-2 border-transparent hover:border-blue-300">
+                        <i class="fas fa-user mr-2"></i>Acerca
                     </a>
                 </nav>
             </div>
@@ -70,11 +70,11 @@
             <!-- Mobile Navigation -->
             <nav id="mobile-menu" class="md:hidden mt-4 hidden">
                 <div class="flex flex-col space-y-2">
-                    <a href="index.html" class="text-blue-200 hover:text-white transition-colors py-2 px-4 border border-blue-600 hover:bg-blue-600">
-                        <i class="fas fa-home mr-2"></i>Inicio
+                    <a href="#proyectos" class="text-blue-200 hover:text-white transition-colors py-2 px-4 border border-blue-600 hover:bg-blue-600">
+                        <i class="fas fa-folder-open mr-2"></i>Proyectos
                     </a>
-                    <a href="#estudiantes" class="text-blue-200 hover:text-white transition-colors py-2 px-4 border border-blue-600 hover:bg-blue-600">
-                        <i class="fas fa-users mr-2"></i>Estudiantes
+                    <a href="#acerca" class="text-blue-200 hover:text-white transition-colors py-2 px-4 border border-blue-600 hover:bg-blue-600">
+                        <i class="fas fa-user mr-2"></i>Acerca
                     </a>
                 </div>
             </nav>
@@ -83,160 +83,77 @@
 
     <!-- Main Content -->
     <main class="container mx-auto px-4 py-12">
-        <!-- Course Overview -->
-        <section class="bg-white shadow-lg border border-slate-200 p-8 mb-12 fade-in">
+        <!-- About Section -->
+        <section id="acerca" class="bg-white shadow-lg border border-slate-200 p-8 mb-12 fade-in">
+            <h2 class="text-3xl font-bold text-slate-800 mb-4">Acerca de Mí</h2>
             <div class="grid md:grid-cols-3 gap-8">
                 <div class="md:col-span-2">
-                    <h2 class="text-3xl font-bold text-slate-800 mb-4">Descripción del Curso</h2>
                     <p class="text-slate-600 mb-6 leading-relaxed">
-                        La Estadística Espacial es una rama especializada que se encarga del análisis de datos 
-                        que presentan dependencia espacial. Este curso aborda métodos geoestadísticos, análisis 
-                        de patrones espaciales, y técnicas de modelado para datos con componente geográfico.
+                        Soy Yhack Bryan Aycaya Paco, estudiante de la Universidad Nacional del Altiplano Puno, inscrito en el curso EST334 - Estadística Espacial (2025-II). Mi portafolio presenta los proyectos realizados en el curso, enfocados en el análisis geoestadístico, modelado espacial y técnicas de interpolación. Estoy comprometido con el aprendizaje y aplicación de herramientas como QGIS, R Spatial y GeoPandas para resolver problemas espaciales.
                     </p>
-                    
-                    <div class="grid md:grid-cols-2 gap-6">
-                        <div>
-                            <h3 class="text-lg font-semibold text-slate-800 mb-3">Objetivos Principales</h3>
-                            <ul class="text-slate-600 space-y-2">
-                                <li class="flex items-start">
-                                    <i class="fas fa-check-circle text-blue-600 mr-2 mt-1"></i>
-                                    Análisis geoestadístico avanzado
-                                </li>
-                                <li class="flex items-start">
-                                    <i class="fas fa-check-circle text-blue-600 mr-2 mt-1"></i>
-                                    Modelado de autocorrelación espacial
-                                </li>
-                                <li class="flex items-start">
-                                    <i class="fas fa-check-circle text-blue-600 mr-2 mt-1"></i>
-                                    Técnicas de interpolación kriging
-                                </li>
-                            </ul>
-                        </div>
-                        
-                        <div>
-                            <h3 class="text-lg font-semibold text-slate-800 mb-3">Herramientas</h3>
-                            <ul class="text-slate-600 space-y-2">
-                                <li class="flex items-start">
-                                    <i class="fas fa-map text-blue-600 mr-2 mt-1"></i>
-                                    GIS / QGIS
-                                </li>
-                                <li class="flex items-start">
-                                    <i class="fas fa-code text-blue-600 mr-2 mt-1"></i>
-                                    R Spatial / Python GeoPandas
-                                </li>
-                                <li class="flex items-start">
-                                    <i class="fas fa-globe text-blue-600 mr-2 mt-1"></i>
-                                    Análisis de datos geoespaciales
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
                 </div>
-                
                 <div class="bg-blue-50 p-6 border border-blue-200">
-                    <h3 class="text-lg font-semibold text-slate-800 mb-4">Información del Curso</h3>
-                    
+                    <h3 class="text-lg font-semibold text-slate-800 mb-4">Información</h3>
                     <div class="space-y-3">
+                        <div class="flex items-center">
+                            <i class="fas fa-university text-blue-600 mr-3"></i>
+                            <span class="text-slate-700">Universidad Nacional del Altiplano Puno</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-book text-blue-600 mr-3"></i>
+                            <span class="text-slate-700">Curso: EST334 - Estadística Espacial</span>
+                        </div>
                         <div class="flex items-center">
                             <i class="fas fa-calendar text-blue-600 mr-3"></i>
                             <span class="text-slate-700">2025 - Segundo Semestre</span>
                         </div>
-                        
                         <div class="flex items-center">
-                            <i class="fas fa-graduation-cap text-blue-600 mr-3"></i>
-                            <span class="text-slate-700">Nivel Pregrado</span>
-                        </div>
-                        
-                        <div class="flex items-center">
-                            <i class="fas fa-book text-blue-600 mr-3"></i>
-                            <span class="text-slate-700">4 Créditos</span>
-                        </div>
-                        
-                        <div class="flex items-center">
-                            <i class="fas fa-user-tie text-blue-600 mr-3"></i>
-                            <span class="text-slate-700">Prof. Fred Torres Cruz</span>
+                            <i class="fas fa-link text-blue-600 mr-3"></i>
+                            <a href="https://t1jack.github.io/" class="text-slate-700 hover:text-blue-600">Repositorio GitHub</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Students Section -->
-        <section id="estudiantes" class="slide-up" style="animation-delay: 0.3s">
+        <!-- Projects Section -->
+        <section id="proyectos" class="slide-up" style="animation-delay: 0.3s">
             <div class="bg-white shadow-lg border border-slate-200 p-8">
-                <div class="flex items-center justify-between mb-8">
-                    <div>
-                        <h2 class="text-3xl font-bold text-slate-800">Lista de Estudiantes</h2>
-                        <p class="text-slate-600 mt-2">
-                            Los estudiantes deben realizar un push al repositorio con el enlace de su portafolio de curso.
+                <h2 class="text-3xl font-bold text-slate-800 mb-4">Proyectos del Curso</h2>
+                <p class="text-slate-600 mb-6">
+                    A continuación, se presentan los proyectos realizados como parte del curso EST334 - Estadística Espacial.
+                </p>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Project 1 -->
+                    <div class="project-card bg-slate-50 border border-slate-200 p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold text-slate-800 mb-2">Posicionamiento de Información</h3>
+                        <p class="text-slate-600 mb-4">
+                            Análisis de datos geoespaciales para determinar patrones de posicionamiento utilizando herramientas GIS. Este proyecto incluye la visualización de datos y mapas interactivos generados con QGIS.
                         </p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold">
+                            <i class="fas fa-link mr-1"></i>Ver Proyecto
+                        </a>
                     </div>
-                    <div class="bg-blue-100 text-blue-800 px-4 py-2 font-semibold">
-                        <i class="fas fa-users mr-2"></i>
-                        Portafolios Pendientes
+                    <!-- Project 2 -->
+                    <div class="project-card bg-slate-50 border border-slate-200 p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold text-slate-800 mb-2">Muestreo Bootstrap</h3>
+                        <p class="text-slate-600 mb-4">
+                            Aplicación de técnicas de muestreo bootstrap para estimar parámetros en datos espaciales. Implementado en R Spatial, este proyecto explora la variabilidad y confianza en los resultados.
+                        </p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold">
+                            <i class="fas fa-link mr-1"></i>Ver Proyecto
+                        </a>
                     </div>
-                </div>
-
-                <!-- Instructions -->
-                <div class="bg-slate-50 border border-slate-200 p-6 mb-8">
-                    <h3 class="text-lg font-semibold text-slate-800 mb-3">
-                        <i class="fas fa-info-circle text-blue-600 mr-2"></i>
-                        Instrucciones para Estudiantes
-                    </h3>
-                    <div class="text-slate-600 space-y-2">
-                        <p><strong>1.</strong> Crear un repositorio público en GitHub con su portafolio del curso EST334</p>
-                        <p><strong>2.</strong> Incluir proyectos espaciales, análisis GIS y ejercicios de geoestadística</p>
-                        <p><strong>3.</strong> Realizar un push/commit con el enlace de su repositorio en este sitio</p>
-                        <p><strong>4.</strong> Documentar mapas, análisis espaciales y resultados de modelado kriging</p>
+                    <!-- Project 3 -->
+                    <div class="project-card bg-slate-50 border border-slate-200 p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold text-slate-800 mb-2">Gaussian Random Fields</h3>
+                        <p class="text-slate-600 mb-4">
+                            Modelado de campos aleatorios gaussianos para analizar la autocorrelación espacial. Utiliza GeoPandas y Python para simular y visualizar procesos espaciales estocásticos.
+                        </p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold">
+                            <i class="fas fa-link mr-1"></i>Ver Proyecto
+                        </a>
                     </div>
-                </div>
-
-                <!-- Students Table -->
-                <div class="overflow-x-auto">
-                    <table class="min-w-full bg-white border border-slate-200">
-                        <thead class="bg-blue-50">
-                            <tr>
-                                <th class="px-6 py-3 text-left text-xs font-medium text-slate-700 uppercase tracking-wider border-b border-slate-200">
-                                    #
-                                </th>
-                                <th class="px-6 py-3 text-left text-xs font-medium text-slate-700 uppercase tracking-wider border-b border-slate-200">
-                                    Nombre del Estudiante
-                                </th>
-                                <th class="px-6 py-3 text-left text-xs font-medium text-slate-700 uppercase tracking-wider border-b border-slate-200">
-                                    Enlace del Portafolio
-                                </th>
-                                <th class="px-6 py-3 text-left text-xs font-medium text-slate-700 uppercase tracking-wider border-b border-slate-200">
-                                    Estado
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody class="divide-y divide-slate-200">
-                            <tr class="hover:bg-slate-50">
-                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-500">
-                                    1
-                                </td>
-                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900">
-                                    [Pendiente]
-                                </td>
-                                <td class="px-6 py-4 whitespace-nowrap text-sm text-slate-500">
-                                    <span class="text-slate-400">Esperando enlace...</span>
-                                </td>
-                                <td class="px-6 py-4 whitespace-nowrap">
-                                    <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-yellow-100 text-yellow-800">
-                                        Pendiente
-                                    </span>
-                                </td>
-                            </tr>
-                            <!-- Más filas se agregarán cuando los estudiantes hagan push -->
-                        </tbody>
-                    </table>
-                </div>
-                
-                <div class="mt-6 text-center">
-                    <p class="text-slate-600">
-                        <i class="fas fa-info-circle mr-1"></i>
-                        Esta tabla se actualizará automáticamente cuando los estudiantes realicen push de sus portafolios
-                    </p>
                 </div>
             </div>
         </section>
@@ -246,10 +163,10 @@
     <footer class="bg-blue-800 text-white mt-16">
         <div class="container mx-auto px-4 py-8">
             <div class="text-center">
-                <p class="text-blue-200">© 2025 EST334 - Estadística Espacial</p>
+                <p class="text-blue-200">© 2025 Yhack Bryan Aycaya Paco - Portafolio EST334</p>
                 <p class="text-blue-300 text-sm mt-2">
-                    <a href="index.html" class="hover:text-blue-100 transition-colors">
-                        <i class="fas fa-arrow-left mr-1"></i>Volver al portal principal
+                    <a href="https://t1jack.github.io/" class="hover:text-blue-100 transition-colors">
+                        <i class="fas fa-link mr-1"></i>Visitar Repositorio Principal
                     </a>
                 </p>
             </div>
